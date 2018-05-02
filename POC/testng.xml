@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="POC" verbose="1" >
+
+<listeners>
+		<listener class-name="HTC.POC.ExtentReporterNG" />
+	</listeners>
+
+  <test name="POCTest" >
+  
+    
+    <classes>
+	
+       <class name="HTC.POC.SampleTestCase" />
+	   
+    </classes>
+	
+  </test>
+  
+</suite>
